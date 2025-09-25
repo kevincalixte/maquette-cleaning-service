@@ -148,13 +148,3 @@ Phone Number
 (123) 4567 890
 
 Copyright © 2025 - Designed by CreativeThemes.
-
-.reviews .box::before {
-    content: '\201C'; /* guillemet ouvrant " */
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    font-size: 50px;
-    color: #28a745; /* vert par exemple */
-    font-family: 'Times New Roman', serif;
-}
