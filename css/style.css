@@ -8,7 +8,7 @@
   font-family: 'Sen';
 }
 
-/* HERO */
+/* HEADER */
 
 header {
   position: relative;
@@ -29,7 +29,7 @@ header {
 }
 
 .bar img {
-  width: 20%;
+  width: 15%;
   margin-left: 1rem;
 }
 
@@ -52,9 +52,17 @@ header {
   margin-top: 1rem;
 }
 
+.bar p {
+  
+}
+
 .bar nav {
   display: flex;
-  gap: 4rem;
+  gap: 1rem;
+}
+
+.bar nav a:hover {
+  background-color: #ffcd05;
 }
 
 .appointment {
@@ -96,6 +104,8 @@ header {
   border:none
 }
 
+/* MAIN */
+
 .provide {
   background-color: #0a0500;
   height: 50vh;
@@ -103,7 +113,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;;
+  gap: 1.5rem;
+  padding-top: 6rem;
 }
 
 .provide p {
@@ -128,10 +139,6 @@ header {
 
 }
 
-.services .boxs .box img {
-
-}
-
 .services .boxs .box {
   background-color: white;
   display: flex;
@@ -139,6 +146,201 @@ header {
   flex-direction: column;
   gap:1rem;
   border: 1px solid #f7f7f7;
+  padding: 2rem; 
+}
+
+.services .buttons {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top:0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  gap: 1.2rem;
+  top: 25vh;
+  padding: 1rem;
+}
+
+.services .buttons input {
+  padding: 0.7rem 1.7rem;
+}
+
+.services .buttons input:nth-child(1) {
+ background-color: #0a0500;
+ border: none;
+ color: white
+}
+
+.services .buttons input:nth-child(2) {
+ background-color: white;
+ border: none;
+ color: #0a0500;
+ border: 2px solid #0a0500;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  padding-top: 45vh;
+  width: 60%;
+  margin: 0 auto;
+  gap:4rem;
+}
+
+.article1, .article2, .article3 {
+  display: flex;;
+}
+
+.articles img {
+  width: 50%;
+}
+
+.content1, .content2, .content3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+.content2 button, .content3 button {
+  background-color: #0a0500;
+  color: #f7f7f7;
+  width: 35%;
+  padding: 0.4rem;
+}
+
+.how {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 7rem;
+}
+
+.how .boxs {
+  display: flex;
+  gap: 2rem;
+}
+
+.how .box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+   border: 1px solid #f7f7f7;
+}
+
+.reviews {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 7rem;
+}
+
+.reviews .boxs {
+  display: flex;
+  gap: 2rem;
+}
+
+.reviews .box {
+  text-align: left;
+  align-items: center;
+  border: 1px solid #f7f7f7;
   padding: 2rem;
-  
+}
+
+.reviews .customer {
+   display: flex;
+   text-align: left;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+
+.reviews .customer img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.logos img {
+  width: 12%;
+}
+
+.contact {
+  background-image: url(../images/home-contact-section-background.webp);
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40rem;
+  margin-bottom: 5rem;
+}
+
+.contact .text {
+   text-align: left;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.contact .button button {
+  background-color: white;
+  border: none;
+  padding: 0.5rem 1.4rem 0.5rem 1.4rem;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  font-size: 13px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  position: relative;
+  gap: 5rem;
+}
+
+footer img {
+  width: 12rem;
+  margin-bottom: 3rem;
+}
+
+.socials {
+  width: 20%;
+}
+.socials p {
+  margin-bottom: 1rem;
+}
+
+.socials i {
+  padding: 0.5rem;
+  margin: 0.3rem;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+}
+
+footer .sen {
+  margin-bottom: 1.5rem;
+}
+
+.copyright {
+  text-align: center;
+  padding: 1.5rem;
 }
