@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,20 +19,24 @@
     
     <header>
 
-    <p>Professional cleaning services</p>
-    <h1>Commercial & Residential Cleaning</h1>
-    
+        
+    <div class="hero">
+        <p class="sen">Professional cleaning services</p>
+        <h1 class="sen">Commercial & Residential</h1>
+        <p class="sen">Cleaning</p>
+    </div>
+ 
     <div class="bar">
 
         <img src="./images/logo-dark.svg" alt="">
 
         <nav>
 
-            <li><a href="#"></a></li>
-            <li><a href="#services"></a></li>
-            <li><a href="#about"></a></li>
-            <li><a href="#blog"></a></li>
-            <li><a href="#contact"></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </nav>
 
@@ -42,23 +48,27 @@
 
     <div class="appointment">
 
-        <p>Get Free Appointment</p>
-
-        <form action="">
-
+         <form action="">
+            
+            <p class="sen">Get Free Appointment</p>
+            
+            <div class="book">
             <input type="text" placeholder="Your Name *"/>
-            <input type="number" placeholder="Your Phone Number *"/>
-
+            <input type="tel" placeholder="Your Phone Number *"/>
+            
             <select name="service" required>
-                <option value="" disabled selected>Select Service *</option>
-                <option value="service1">House Cleaning</option>
-                <option value="service2">Office Cleaning</option>
-                <option value="service3">Laundry Cleaning</option>
+             <option value="" disabled selected>Select Service *</option>
+             <option value="service1">House Cleaning</option>
+             <option value="service2">Office Cleaning</option>
+             <option value="service3">Laundry Cleaning</option>
             </select>
-           
-            <input type="button" value="Book an Appointment"/>
-
-        </form>
+                     
+            <button>Book an Appointment</button>
+            
+            
+            </div>
+            
+         </form>
 
     </div>
 
@@ -68,17 +78,19 @@
 
     <div class="provide">
 
-        <p>We Provide The Best Services</p>
-        <p>Integer at faucibus urna nullam condimentum leo idelit sagittis auctor curabitur elementum nunc imperdiet.</p>
+        <p class="sen">We Provide The Best Services</p>
+        <p class="sen">Integer at faucibus urna nullam condimentum leo idelit sagittis auctor curabitur</p>
     
     </div>
 
     <div class="services">
 
+        <div class="boxs">
+   
         <div class="box">
 
             <img src="./images/house-cleaning.png" alt="">
-            <p>House Cleaning</p>
+            <p class="sen">House Cleaning</p>
             <p>In at iaculis lorem praesent tempor dictum tellus ut molestie.</p>
             <p>From $60</p>
 
@@ -87,7 +99,7 @@
         <div class="box">
 
             <img src="./images/office-cleaning.png" alt="">
-            <p>Office Cleaning</p>
+            <p class="sen">Office Cleaning</p>
             <p>In at iaculis lorem praesent tempor dictum tellus ut molestie.</p>
             <p>From $70</p>
 
@@ -96,14 +108,20 @@
         <div class="box">
 
             <img src="./images/laundry-service.png" alt="">
-            <p>Laundry Service</p>
+            <p class="sen">Laundry Service</p>
             <p>In at iaculis lorem praesent tempor dictum tellus ut molestie.</p>
             <p>From $60</p>
 
         </div>
 
+        </div>
+        
+        <div class="buttons">
+
         <input type="button" value="View all services"/>
         <input type="button" value="Contact us now"/>
+
+        </div>
 
     </div>
 
@@ -111,7 +129,7 @@
 
         <article class="article1">
 
-            <p>We are industry leaders</p>
+            <p class="sen">We are industry leaders</p>
             <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur sapien. Etiam dui ipsum, viverra vel turpis ut, dignissim elementum mauris. Sed dapibus auctor scelerisque pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
             
             <ul>
@@ -129,7 +147,7 @@
 
             <img src="./images/home-feature-image-2.webp" alt="">
 
-            <p>We provide eco-friendly cleaning services</p>
+            <p class="sen">We provide eco-friendly cleaning services</p>
             <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur sapien. Etiam dui ipsum, viverra vel turpis ut, dignissim elementum mauris. Sed dapibus auctor scelerisque pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
             
             <button>Get Started</button>
@@ -138,7 +156,7 @@
 
         <article class="article3">
 
-            <p>We provide eco-friendly cleaning services</p>
+            <p class="sen">We provide eco-friendly cleaning services</p>
             <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur sapien. Etiam dui ipsum, viverra vel turpis ut, dignissim elementum mauris. Sed dapibus auctor scelerisque pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
             
             <button>Play Video <i class="fa-solid fa-play"></i></button>
@@ -152,12 +170,12 @@
     <div class="how">
 
         <p>How it works</p>
-        <p>How to cleaning Service Works</p>
+        <p class="sen">How to cleaning Service Works</p>
 
         <div class="box">
 
             <img src="./images/plan.png" alt="">
-            <p>Set Up a Cleaning Plan</p>
+            <p class="sen">Set Up a Cleaning Plan</p>
             <p>Maecenas interdum lorem eleifend Aliquam non rhoncus magna.</p>
 
         </div>
@@ -165,7 +183,7 @@
         <div class="box">
             
             <img src="./images/online.png" alt="">
-            <p>Manage Everything Online</p>
+            <p class="sen">Manage Everything Online</p>
             <p>Nam fermentum ipsum in suscipit pharetra odio aliquet iaculis augue.</p>
             
         </div>
@@ -173,7 +191,7 @@
         <div class="box">
             
             <img src="./images/relax.png" alt="">
-            <p>Sit Back and Relax</p>
+            <p class="sen">Sit Back and Relax</p>
             <p>Aliquam non rhoncus magna suspendisse aliquet commodo feugiat.</p>
             
         </div>
@@ -183,7 +201,7 @@
      <div class="reviews">
 
         <p>Customer reviews</p>
-        <p>What our customers are saying</p>
+        <p class="sen">What our customers are saying</p>
 
         <div class="box">
 
@@ -245,7 +263,7 @@
         <div class="contact">
 
             <p>Call us now: (123) 4567 890</p>
-            <p>Are you looking for professional cleaning services?</p>
+            <p class="sen">Are you looking for professional cleaning services?</p>
             <button>Contact Us</button>
 
         </div>
@@ -270,7 +288,7 @@
 
         <section class="links">
 
-            <p>Quick Link</p>
+            <p class="sen">Quick Link</p>
 
             <ul>
                 <li><a href="#">Home</a></li>
@@ -288,6 +306,8 @@
         
         <section class="services">
             
+            <p class="sen">Services</p>
+
             <ul>
                 
                 <li>
@@ -306,6 +326,8 @@
         </section>
 
         <section class="infos">
+
+            <p class="sen">Contact Info</p>
 
             <p>Location</p>
             <p>304 North Cardinal St. Dorchester</p>
