@@ -74,10 +74,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 22%;
-}
-
-.bar a {
-
+  
 }
 
 .bar nav a:hover {
@@ -261,7 +258,12 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
-  padding: 4rem;
+  padding-right: 4rem;
+}
+
+.content2 {
+  padding-right: -4rem;
+  padding-left: 4rem;
 }
 
 .content2 button, .content3 button {
