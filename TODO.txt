@@ -1,0 +1,5 @@
+- Cursor pointer
+- Font size & family
+- Hover
+- Bar Call us
+- Filtre 
